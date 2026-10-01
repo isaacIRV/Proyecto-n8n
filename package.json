@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "n8n": "^2.40.5"
+  },
+  "scripts": {
+    "start": "npx n8n",
+    "export": "npx n8n export:workflow --all --output=./workflows/",
+    "import": "npx n8n import:workflow --input=./workflows/"
   }
 }
