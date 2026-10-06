@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "n8n": "^2.40.5"
+    "n8n": "^1.17.0",
+    "selenium": "^2.20.0"
   },
   "scripts": {
     "start": "npx n8n",
